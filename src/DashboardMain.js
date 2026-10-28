@@ -29,7 +29,7 @@ const emptyEditForm = {
   city: "",
 };
 
-function DashboardMaind({ onLogout }) {
+function DashboardMain({ onLogout }) {
   const [students, setStudents] = useState([]);
   const [form, setForm] = useState(emptyForm);
   const [editForm, setEditForm] = useState(emptyEditForm);
@@ -940,4 +940,4 @@ function DashboardMaind({ onLogout }) {
   );
 }
 
-export default DashboardMaind;
+export default DashboardMain;
